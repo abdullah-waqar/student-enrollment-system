@@ -1,0 +1,25 @@
+# Python caches (The "temporary" brain of Python)
+__pycache__/
+*.py[cod]
+*$py.class
+#folder
+learning_fast_api/
+learning_fast_api
+# Virtual Environment (Don't upload this; others will build their own)
+venv/
+env/
+.env/
+.venv/
+.venv
+
+# Database files (Don't upload your local test data)
+*.sqlite3
+*.db
+
+# Environment variables (If you ever use a .env file for secrets)
+.env
+.flaskenv
+
+# IDE Folders (Visual Studio Code / PyCharm settings)
+.vscode/
+.idea/
